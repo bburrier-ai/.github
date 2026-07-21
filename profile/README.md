@@ -29,6 +29,10 @@ I am exploring and documenting a different approach here. Rather than using an a
     <td width="72" align="center"><a href="https://telegram.org/"><img src="assets/telegram.png" alt="Telegram" width="40" /></a></td>
     <td><strong>Telegram</strong> — My primary control interface to Hermes. I communicate with the agent through Telegram conversations rather than through a local editor integration. This allows me to control and receive communication from Hermes in one continuous conversation when moving between desktop and mobile.</td>
   </tr>
+  <tr>
+    <td width="72" align="center"><a href="https://github.com/volcengine/OpenViking"><img src="assets/openviking.png" alt="OpenViking" width="40" /></a></td>
+    <td><strong>OpenViking</strong> — Context database for AI agents. Runs on the VPS and used as a shared durable store of context for Hermes and other remote agents. This keeps decisions, principles, skills, and project context available across agents and sessions instead of requiring it to be rediscovered each time.</td>
+  </tr>
 </table>
 
 
