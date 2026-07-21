@@ -11,11 +11,11 @@ I am exploring and documenting a different approach here. Rather than using an a
 <table>
   <tr>
     <td width="72" align="center"><a href="https://hermes-agent.nousresearch.com/"><img src="assets/hermes.png" alt="Hermes Agent" width="40" /></a></td>
-    <td><strong>Hermes</strong> - The autonomous AI agent that drives this workflow. It plans work, writes code, and pushes changes to repositories in this organization. As the scale of agent managed projects increases the <a href="https://hermes-agent.nousresearch.com/docs/user-guide/features/kanban">Hermes Kanban(Multi-Agent Board)</a> feature can be implemented to support a true multi-agent workflow that also provides observability for the human orchestrator. </td>
+    <td><strong>Hermes</strong> - The autonomous AI agent that drives this workflow. It plans work, writes code, and pushes changes to repositories in this organization. As the scale of agent managed projects increases the <a href="https://hermes-agent.nousresearch.com/docs/user-guide/features/kanban">Hermes Kanban (Multi-Agent Board)</a> feature can be implemented to support a true multi-agent workflow that also provides observability for the human orchestrator. </td>
   </tr>
   <tr>
-    <td width="72" align="center"><a href="https://github.com/bburrier-ai"><img src="assets/github.png" alt="GitHub" width="40" /></a></td>
-    <td><strong>GitHub</strong> - Where the code lives. This organization holds the repos that Hermes creates and maintains, authenticated via a GitHub App.</td>
+    <td width="72" align="center"><a href="https://github.com/bburrier-ai"><img src="assets/github.png" alt="GitHub" width="40" style="background-color: #FFF;" /></a></td>
+    <td><strong>GitHub</strong> - Where the code lives. This organization holds the repos that Hermes creates and maintains, authenticated via a GitHub App. The scoped GitHub App is installed on the sandbox organization and issues a short-lived token with constrained repository permissions for each each request the agent makes to GitHub. <a href="https://github.com/bburrier-ai/hermes-github-jumpstart">bburrier-ai/hermes-github-jumpstart</a></td>
   </tr>
   <tr>
     <td width="72" align="center"><a href="https://www.hostinger.com/vps-hosting"><img src="assets/hostinger.png" alt="Hostinger" width="40" /></a></td>
